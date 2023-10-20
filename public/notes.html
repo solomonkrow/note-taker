@@ -15,29 +15,31 @@
     <link rel="stylesheet" href="/assets/css/styles.css" />
   </head>
 
-  <body>
-    <nav class="navbar bg-info">
-      <a class="navbar-brand text-light p-3" href="/">Note Taker </a>
+  <body style="background-image: linear-gradient(to bottom right, white, #e3edf1, #60737a); height: 100vh;">
+    <nav class="navbar" style="background-color: #14303a;">
+      <a class="navbar-brand  p-3" style="color: gold;" href="/">Note Taker </a>
       <div class="icons">
-        <i class="fas fa-save text-light save-note"></i>
-        <i class="fas fa-plus text-light new-note"></i>
+        <i class="fas fa-save  save-note" style="color: gold;"></i>
+        <i class="fas fa-plus  new-note" style="color: gold;"></i>
       </div>
     </nav>
-    <div class="container-fluid">
+    <div class="container-fluid" >
       <div class="row">
         <div class="col-4 list-container">
           <div class="card">
+            <!-- Leftside list of tasks -->
             <ul class="list-group"></ul>
           </div>
         </div>
-        <div class="col-8">
+        <div class="col-8" >
           <input
-            class="note-title"
+            class="note-title pb-3"
             placeholder="Note Title"
             maxlength="28"
             type="text"
+            style="border-radius: 10px;"
           />
-          <textarea class="note-textarea" placeholder="Note Text"></textarea>
+          <textarea class="note-textarea mt-2" style="border-radius: 10px;" placeholder="Note Text"></textarea>
         </div>
       </div>
     </div>

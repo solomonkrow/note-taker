@@ -1,6 +1,12 @@
 [
     {
-        "title":"Test Title",
-        "text":"Test text"
+        "title": "Finished",
+        "text": "Finally got this application working properly",
+        "id": "1907"
+    },
+    {
+        "title": "Lil color",
+        "text": "new color",
+        "id": "10c6"
     }
 ]

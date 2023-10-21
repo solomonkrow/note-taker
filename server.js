@@ -2,7 +2,7 @@ const express = require('express');
 const path = require('path')
 const api = require('./routes/index');
 
- const port = process.env.PORT || 3001;
+const port = process.env.PORT || 3001;
 const app = express();
 
 app.use(express.json());
@@ -24,6 +24,6 @@ app.get('/', (req, res) =>
 
 // for user to see action and show url
 app.listen(port, () =>
-  console.log(`App listening at http://localhost:${PORT}`)
+  console.log(`App listening at http://localhost:${port}`)
 );
 
